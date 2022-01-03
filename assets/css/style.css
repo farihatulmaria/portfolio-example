@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 h1 {
   font-size: 50px;
@@ -12,25 +13,43 @@ h1 {
 .gray {
   color: gray;
 }
-section {
+.top-banner,
+.dream {
   display: flex;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+.top-banner {
+  background: url("/assets/images/top-banner.png");
+  background-position: top left;
+}
+.dream {
+  background: url("/assets/images/dream-bg.png");
+  background-position: right;
+}
+.half-width p {
+  padding-left: 11px;
+  padding-right: 183px;
 }
 .half-width {
   width: 50%;
-  padding-left: 4%;
+  padding-left: 2%;
 }
 .half-width img {
-  width: 80%;
+  width: 81%;
+  margin-top: 10px;
 }
 a {
   text-decoration: none;
   text-transform: capitalize;
 }
-.hireing-me {
+.hireing-me,
+.dream-btn {
   text-align: center;
   padding: 10px 40px;
   text-transform: uppercase !important;
   background: linear-gradient(45deg, lightsalmon, tomato);
   color: #fff;
   border-radius: 5px;
+  font-weight: bold;
 }
