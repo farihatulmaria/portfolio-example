@@ -9,6 +9,9 @@ h1 {
 .orange {
   color: orange;
 }
+.gray {
+  color: gray;
+}
 section {
   display: flex;
 }
@@ -18,4 +21,16 @@ section {
 }
 .half-width img {
   width: 80%;
+}
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.hireing-me {
+  text-align: center;
+  padding: 10px 40px;
+  text-transform: uppercase !important;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  color: #fff;
+  border-radius: 5px;
 }
