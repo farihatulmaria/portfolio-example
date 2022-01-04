@@ -138,6 +138,24 @@ a {
 }
 
 @media screen and (max-width: 480px) {
+  h1 {
+    font-size: 40px;
+  }
+  .half-width {
+    width: 100%;
+    height: 500px;
+  }
+  .half-width p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .half-width img {
+    margin-left: 10%;
+  }
+  .my-bg2 img {
+    margin-left: 48px;
+    margin-top: -45px;
+  }
 }
 
 @media screen and (max-width: 320px) {
