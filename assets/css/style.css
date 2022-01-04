@@ -23,12 +23,12 @@ h1 {
   background-position: top left;
 }
 .my-bg {
-  background: url("/assets/images/my-bg.png");
+  background: url("https://farihatulmaria.github.io/portfolio-example/assets/images/my-bg.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .my-bg2 {
-  background: url("/assets/images/my-bg2.png");
+  background: url("https://farihatulmaria.github.io/portfolio-example/assets/images/my-bg2.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -54,6 +54,7 @@ h1 {
   width: 50%;
   margin-left: 5%;
   padding-left: 2%;
+  margin-bottom: 5%;
 }
 .half-width img {
   margin-left: 50px;
@@ -107,6 +108,9 @@ a {
 @media screen and (max-width: 980px) {
 }
 @media screen and (max-width: 768px) {
+  .flexible {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 640px) {
