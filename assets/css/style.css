@@ -35,12 +35,11 @@ h1 {
 .my-bg2 img {
   transform: scaleX(-1);
   margin-left: 64px !important;
-  margin-top: 50px;
+  margin-top: 34px;
 }
 .dream {
   background: url("https://farihatulmaria.github.io/portfolio-example/assets/images/dream-bg.png");
   background-position: right;
-  height: 500px;
 }
 .experience {
   background: url("https://farihatulmaria.github.io/portfolio-example/assets/images/exp-bg.png");
@@ -106,11 +105,33 @@ a {
 }
 
 @media screen and (max-width: 980px) {
-}
-@media screen and (max-width: 768px) {
   .flexible {
     display: block;
   }
+  .top-banner {
+    margin-top: -37px;
+  }
+  .half-width img {
+    margin-left: 30%;
+  }
+  .my-bg {
+    background-position: center;
+  }
+  .half-width {
+    width: 100%;
+    height: 450px;
+  }
+  .dream {
+    background: #fff;
+  }
+  .experience-items {
+    width: 79%;
+    margin-bottom: 20px;
+    margin-left: 7%;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
 }
 
 @media screen and (max-width: 640px) {
